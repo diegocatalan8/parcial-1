@@ -1,0 +1,67 @@
+.App-header{
+    
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #8ab5d7;
+   
+
+}
+
+.container-cover{
+    width: 30%;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-cover h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.container-cover select{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+.container-cover select:focus{
+    outline: none;
+    border: 3px solid #054271;
+}
+
+input[type=button]{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #054271;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+   
+}
+
+input[type=button]:hover{
+    background-color: #557084;
+    color: white;
+    box-shadow: 0px 0px 10px #000509;
+}

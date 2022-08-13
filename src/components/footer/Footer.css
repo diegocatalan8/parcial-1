@@ -1,0 +1,39 @@
+.footer-principal{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgb(63, 97, 153);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.footer-principal ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+    
+}
+
+.footer-principal ul:first-child{
+    margin-right: 45px;
+}
+
+.footer-principal ul:last-child{
+    margin-left: 45px;
+}
+
+.footer-principal ul li{
+   margin: 5px;
+   font-weight: 500;
+  
+}
+
+.footer-principal ul li:hover{
+    cursor: pointer;
+    color: rgb(10, 6, 6);
+}
