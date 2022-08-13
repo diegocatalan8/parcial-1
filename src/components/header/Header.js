@@ -11,7 +11,7 @@ export default function Header({ setCategoria, categoria }) {
                                 <form>
                                        
                                         <select id="libros" name="libros">
-                                                <option value="entradas">Entradas</option>
+                                                <option value="Entradas">Entradas</option>
                                                
                                                
                                         </select>
